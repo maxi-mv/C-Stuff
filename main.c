@@ -25,7 +25,7 @@ int main() {
     for (int i = 0; i < n; i++) {
         printf("%d ", p[i]);
     }
-
+    printf("test");
     free(p);
 
     return 0;
