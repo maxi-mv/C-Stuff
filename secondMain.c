@@ -8,10 +8,10 @@ void verdoppeln(int *MainNumber) {
 }
 
 int main() {
-   int MainNumber = 7; //deklariert main variable
+   int MainNumber = 7; // Deklariert eine int-Variable und weist ihr den Wert 7 zu
 
-   verdoppeln(&MainNumber); // main nummer wird an den speicher übergeben
+   verdoppeln(&MainNumber); // Übergibt die Adresse von MainNumber an die Funktion
 
-   printf("%d",MainNumber); //main nummer wird als int mit %d angezeigt 
+   printf("%d",MainNumber); // Gibt den neuen Wert von MainNumber aus (jetzt 14)
 
 }
